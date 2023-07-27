@@ -6,6 +6,10 @@
     --primary-color: #0F1B4C;
 }
 
+html body {
+    scroll-behavior: smooth;
+}
+
 html {
     font-size: 62.5%;
 }
@@ -64,7 +68,8 @@ a:hover {
 .header {
     position: relative;
     background-color: #E6F0FF;
-    height: 100vh;
+    height: 736px;
+    max-height: 100vh;
 }
 
 .navbar {
