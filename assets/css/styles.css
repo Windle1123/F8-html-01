@@ -171,15 +171,20 @@ a:hover {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-top: 52px;  
+    margin-top: 70px;  
     opacity: 0.9; 
 }
 
-.clients .image-logo img:nth-child(3) {
-    background-color: #fff;
+.clients .image-logo a {
+    display: flex;
+    align-items: center;
+    height: 90px;
+    padding: 0 42px;
     border-radius: 12px;
-    padding: 18px 21px;
-    box-shadow: 0 10px 20px 0 #0000001A;
+}
+
+.clients .image-logo a:hover {
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1)
 }
 
 /* =====Guides===== */
